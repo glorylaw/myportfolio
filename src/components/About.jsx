@@ -9,7 +9,7 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
-              About
+              About me .....
             </p>
           </div>
           <div></div>
@@ -21,7 +21,7 @@ const About = () => {
             <div>
               <p> I am a MERN-STACK Engineer with a passion for building applications
             that solve real-world problems. I am proficient in an assortment of
-            technologies, including React, Node.Js, Typescript, Express, and 
+            technologies, including React,React Native, Node.Js, Typescript, Express, and 
             Relational Databases such as MongoDB. I have also led a team of six 
             in building a progress tracker application to serve over 1,000 devs 
             per month, increasing efficiency and transparency by over 60 percent. 

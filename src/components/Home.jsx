@@ -16,7 +16,7 @@ const Home = () => {
           I'm a MERN Stack Engineer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a MERN stack engineer  I am a MERN stack engineer with a passion for building scalable and robust web applications. I relish the Art of Solving Problems. I am a <span className='text-pink-600'>Design Thinker</span>
+           I am a MERN stack engineer with a passion for building scalable and robust web applications. I love the Art of Solving Problems. I am a <span className='text-pink-600'>Design Thinker</span>
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
