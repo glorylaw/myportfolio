@@ -46,63 +46,6 @@ const Contact = () => {
 }
 
 
-// const Contact = () => {
 
-//  const form = useRef(null);
-//  const [name, setName] = useState("")
-//  const [email, setEmail] = useState("")
-//  const [message, setMessage] = useState("")
-
-//   const sendEmail = (e) => {
-//     e.preventDefault();
-
-
-//     emailjs.sendForm("service_rqnvrh5", 'template_c4fkyux', form.current, '0Aeiived59pFXnmWS')
-//       .then((result) => {
-//         console.log(result)
-//         setEmail("")
-//          setName("")
-//          setMessage("")
-//         toast.success("message sent successfully")
-        
-//       }, (error) => {
-//           console.log(error.text);
-//       });
-   
-//   };
-//   return (
-//     <section
-//       id='contact'
-//       className=' bg-[#0a192f] text-white min-h-[732px] section'
-//     >
-      
-//       <div className='container mx-auto text-center'>
-//         <h2 className='text-5xl font-primary font-extrabold mb-4'>
-//           Contact us
-//         </h2>
-//         <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[64px]'>
-//           Send us a message via the field below
-//         </p>
-
-//         {/* form */}
-//         <form ref={form} onSubmit={sendEmail}  className='px-8 lg:px-0 max-w-[600px] mx-auto flex flex-col space-y-6 mb-[46px]'>
-//           <input className='form-control' ref={form} name="name" type='text' placeholder='Full name' value={name} onChange={(e)=>setName(e.target.value)} />
-//           <input
-//             className='form-control'
-//             type='text'
-//             name='email'
-//             placeholder='Email address'
-//             value={email}
-//             onChange={(e)=>setEmail(e.target.value)}
-//           />
-//           <textarea className='textarea' name="message" placeholder='Message'  value={message}  onChange={(e)=>setMessage(e.target.value)}></textarea>
-//           <button type="submit" className='btn bg-accent hover:bg-accent-hover transition-all'>
-//             Send Message
-//           </button>
-//         </form>
-//       </div>
-//     </section>
-//   );
-// };
 
 export default Contact
